@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratice_git_01</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .div1{
+        height: 629px;
+        text-align: center;
+        line-height: 400px;
+        margin: auto;
+        padding: 0%;
+        background-color: rgb(51, 54, 55);
+        background: linear-gradient(to bottom, rgb(38, 39, 39), rgb(77, 78, 79));
+        }
+        .span1{
+        display: inline-block;
+        width: 230px;
+        height: 230px;
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(252, 214, 220) ;
+        font-size: 20px;
+        font-family:cursive;
+        border-radius: 50%;
+        box-shadow: 25px 25px 400px rgb(245, 213, 218),10px 10px 400px rgb(250, 190, 199);
+        margin-left: 780px;
+        margin-top: 60px;
+        color:rgb(203, 150, 158) 
+        }
+    </style>
+</head>
+<body id="x">
+    <div class="div1">
+        <span class="span1"></span>
+    </div>
+    <script>
+        alert("点击我有惊喜！")
+        var div1=document.querySelector(".div1");
+        var span1=document.querySelector(".span1")
+        div1.addEventListener("click",function(){
+            alert("后续修改,想睡觉了");
+        })
+    </script>
+</body>
+</html>
